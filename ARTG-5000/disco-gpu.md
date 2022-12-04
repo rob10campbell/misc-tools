@@ -79,7 +79,7 @@ Step 1: Login to Discovery from a Terminal on Mac
 ssh -Y your.username@login.discovery.neu.edu
 ```
 
-Step 2: Move to a GPU compute node (duration: 2hrs)
+Step 2: Move to a GPU compute node (duration: 2hrs ;  you can request up to a max of 8hrs)
 ```
 srun -p gpu --gres=gpu:t4:1 -N 1 -n 2 --pty --time=02:00:00 /bin/bash
 ```
