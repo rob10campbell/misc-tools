@@ -11,7 +11,7 @@ It also provides a [list of commands](/ARTG-5000/disco-gpu.md#step-by-step-guide
 
 
 ## Brief Overview of Discovery
-You can connect to Discovery from a Terminal or the web-based Open On Demand (OOD). For more details on this see the Resources list at the end of this section. You can transfer data to and from Discovery using `scp`, FileZilla, OOD, or Globus. For more details on file transfer see the Resources list at the end of this section.
+You can connect to Discovery from a Terminal or the web-based Open On Demand (OOD). For more details on this see the Resources list at the end of this section. You can transfer data to and from Discovery using `scp`, FileZilla, OOD, or Globus. For more details on file transfer see the [Resources](/ARTG-5000/disco-gpu.md#resources) list at the end of this section.
 
 Once you have access to Discovery you can access preexisting nodes, partitions, direcotries, software, and pre-configured software environments (AKA containers) to run code on either CPUs or GPUs.
 
@@ -102,7 +102,7 @@ mkdir /scratch/$USER/ARTG-5000/
 cd /scratch/$USER/ARTG-5000/
 ```
 
-Step 5: Copy your files to the ARTG-5000 folder with `scp` (for information on other file transfer methods see the Resources section, above)<br>
+Step 5: Copy your files to the ARTG-5000 folder with `scp` (for information on other file transfer methods see the [Resources](/ARTG-5000/disco-gpu.md#resources) section, above)<br>
 **Open a new Terminal window** and cd to the directory where your files are stored
 ```
 cd my-path-to-files
