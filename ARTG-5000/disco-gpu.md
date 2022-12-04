@@ -1,8 +1,8 @@
 # How to use the Discovery Research Cluster for GPU software
 
-This file provides a [brief overview](ARTG-5000/disco-gpu.md#brief-overview-of-discovery) of the Discovery cluster.
+This file provides a [brief overview](/ARTG-5000/disco-gpu.md#brief-overview-of-discovery) of the Discovery cluster.
 
-It also provides a [list of commands](ARTG-5000/disco-gpu.md#step-by-step-guide) for:
+It also provides a [list of commands](/ARTG-5000/disco-gpu.md#step-by-step-guide) for:
 - accessing Discovery
 - switching to a compute node on the GPU partition
 - using a container with tensorflow already installed
